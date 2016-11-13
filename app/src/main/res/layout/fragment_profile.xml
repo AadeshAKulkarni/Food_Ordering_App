@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_weight="1"
+        android:layout_margin="10sp"
+        android:hint="Enter Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="20sp"
+        android:textAlignment="viewStart"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_weight="1"
+        android:hint="Enter Email Address"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="20sp"
+        android:textAlignment="viewStart"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_weight="1"
+        android:hint="Enter Contact Number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="20sp"
+        android:textAlignment="viewStart"
+        android:textStyle="normal|bold"
+        android:layout_margin="10sp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/editText4" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/editText5"
+        android:layout_alignEnd="@+id/editText5" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_weight="1"
+        android:hint="Enter Postal Address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="20sp"
+        android:textAlignment="viewStart"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">SlidingMenu_TabHostViewPager</string>
+
+    <string name="drawer_opened">Drawer Opened</string>
+    <string name="drawer_closed">Drawer Closed</string>
+    <string name="inSession">false</string>
+
+    <string name="name"></string>
+    <string name="contact"></string>
+    <string name="email"></string>
+    <string name="password"></string>
+    <string name="address"></string>
+    <string-array name="menu_title">
+        <item>SNACKS</item>
+        <item>SABZI</item>
+        <item>RICE</item>
+        <item>DAL</item>
+        <item>EXTRAS</item>
+        <item>DRINKS</item>
+    </string-array>
+    <string-array name="snacks">
+        <item>Sada Uthappa</item>
+        <item>Onion Uthappa</item>
+        <item>Onion Tomato Uthappa</item>
+        <item>Sada Dosa</item>
+        <item>Masala Dosa</item>
+        <item>Misal Paav</item>
+        <item>Medu Vada</item>
+        <item>Idli Vada</item>
+        <item>Uppma</item>
+        <item>Kanda Poha</item>
+        <item>Idli</item>
+        <item>Vada Paav</item>
+        <item>Samosa Paav</item>
+    </string-array>
+    <string-array name="snacksprice">
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>25</item>
+        <item>30</item>
+        <item>30</item>
+        <item>25</item>
+        <item>25</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>15</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="sabzi">
+        <item>Mixed Veg</item>
+        <item>Paneer Masala</item>
+        <item>Mutter Paneer</item>
+        <item>Paneer Makhani</item>
+        <item>Green Peas Tomato</item>
+        <item>Aloo</item>
+        <item>Pitla</item>
+        <item>Sabzi#3</item>
+        <item>Sabzi#4</item>
+    </string-array>
+    <string-array name="sabziprice">
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>40</item>
+        <item>40</item>
+        <item>40</item>
+        <item>40</item>
+    </string-array>
+
+    <string-array name="rice">
+        <item>Plain Rice</item>
+        <item>Masala Rice</item>
+        <item>Jeera Fried Rice</item>
+    </string-array>
+    <string-array name="riceprice">
+        <item>40</item>
+        <item>50</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="dal">
+        <item>Dal Fry</item>
+        <item>Dal Tadka</item>
+        <item>Dal Khichadi</item>
+    </string-array>
+    <string-array name="dalprice">
+        <item>40</item>
+        <item>60</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="extras">
+        <item>Roti</item>
+        <item>Paav</item>
+        <item>Papad</item>
+        <item>Dahi(Curd)</item>
+    </string-array>
+    <string-array name="extrasprice">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="drinks">
+        <item>Chaai</item>
+        <item>Coffee</item>
+        <item>Sprite</item>
+        <item>Mirinda</item>
+    </string-array>
+
+    <string-array name="drinksprice">
+        <item>12</item>
+        <item>20</item>
+        <item>15</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="address">
+        <item>Vrindavan Society</item>
+        <item>Shreerang Society</item>
+        <item>Anandpark Society</item>
+        <item>Castle Mill</item>
+        <item>Vikas Complex</item>
+        <item>Rutu Park</item>
+        <item>Devashree Gardens</item>
+        <item>Rabodi</item>
+        <item>Saket Towers</item>
+        <item>Lodha Paradise</item>
+    </string-array>
+</resources>

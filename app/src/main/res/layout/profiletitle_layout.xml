@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#125678">
+
+    <TextView
+        android:text="TITLE COMES HERE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading_item"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>
